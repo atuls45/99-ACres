@@ -1,0 +1,31 @@
+{
+    "name": "real-estate",
+    "version": "1.0.0",
+    "description": "",
+    "engines": {
+        "node": "12.x"
+    },
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.16.3",
+        "mongoose": "^5.3.16"
+    },
+    "devDependencies": {
+        "concurrently": "^4.1.0",
+        "nodemon": "^1.18.7"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "seed": "node scripts/seedDB.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/azu20/real-estate.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/azu20/real-estate/issues"
+    },
+    "homepage": "https://github.com/azu20/real-estate#readme"
+}
